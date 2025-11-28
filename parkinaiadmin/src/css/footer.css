@@ -1,0 +1,232 @@
+/* Minimal Footer Styles */
+.theme-footer {
+  background: #f7fafc;
+  color: #00303a;
+  font-family: "Inter", Arial, sans-serif;
+  padding: 32px 0 0 0;
+}
+.theme-footer .container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 16px;
+}
+.footer-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.footer-logo img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 8px;
+}
+.tagline {
+  font-size: 15px;
+  color: #00303a;
+  font-weight: 500;
+}
+.footer-quick-links {
+  display: flex;
+  gap: 32px;
+}
+.footer-list {
+  min-width: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.footer-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #00303a;
+}
+.link-list {
+  color: #00303a;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  transition: color 0.2s;
+}
+.link-list:hover {
+  color: #00dcb5;
+}
+.footer-app-download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.footer-app-download .footer-title {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.store-icons {
+  display: flex;
+  gap: 8px;
+}
+.store-icons a {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 6px 12px;
+  color: #00303a;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 13px;
+  transition: border-color 0.2s, color 0.2s;
+}
+.store-icons a:hover {
+  border-color: #00dcb5;
+  color: #00dcb5;
+}
+.right-line {
+  display: none;
+}
+.bottom-line {
+  background: #005d6c;
+  width: 100%;
+  padding: 0;
+}
+.bottom-line .container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 16px;
+}
+.bottom-line-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-height: 44px;
+}
+.copyright {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 400;
+}
+.footer-social {
+  display: flex;
+  gap: 12px;
+}
+.footer-social a {
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+}
+.footer-social a:hover {
+  color: #00dcb5;
+}
+.icon-x:before {
+  content: "X";
+  font-size: 18px;
+}
+.icon-instagram:before {
+  content: "IG";
+  font-size: 18px;
+}
+.icon-facebook-circle:before {
+  content: "FB";
+  font-size: 18px;
+}
+.icon-linkedin:before {
+  content: "IN";
+  font-size: 18px;
+}
+.footer-app-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+.footer-app-row .footer-title {
+  margin-bottom: 0;
+  margin-right: 16px;
+  white-space: nowrap;
+}
+.footer-app-row .store-icons {
+  display: flex;
+  gap: 16px;
+  flex: 1;
+  min-width: 0;
+}
+.footer-app-row .store-icons a {
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  display: flex;
+}
+.footer-app-row .store-icons img {
+  width: 100%;
+  height: 44px;
+  object-fit: contain;
+  display: block;
+}
+@media (max-width: 900px) {
+  .footer-wrap {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  .footer-quick-links {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  .bottom-line-wrap {
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    padding: 0 8px;
+  }
+  .footer-app-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .footer-app-row .footer-title {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+  .footer-app-row .store-icons {
+    gap: 12px;
+    justify-content: center;
+  }
+  .footer-app-row .store-icons a {
+    width: 100%;
+  }
+  .footer-app-row .store-icons img {
+    width: 100%;
+    height: 48px;
+  }
+}
+@media (max-width: 600px) {
+  .footer-app-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .footer-app-row .footer-title {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+  .footer-app-row .store-icons {
+    gap: 8px;
+  }
+}

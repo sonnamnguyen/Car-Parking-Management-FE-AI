@@ -1,0 +1,267 @@
+/* Subscribe Section Styles */
+
+.subscribe {
+  background: #00303a;
+  padding: 48px 0;
+}
+.subscribe .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+.subscribe-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.subscribe-text {
+  flex: 1;
+  text-align: left;
+}
+.subscribe-text .main-title {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Effra", Arial, sans-serif;
+  color: #19e6c1;
+  margin-bottom: 12px;
+}
+.subscribe-text p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Effra", Arial, sans-serif;
+  margin: 0;
+}
+.subscribe-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+.parkin-input .form-control {
+  padding: 16px 24px;
+  border: none;
+  border-radius: 16px;
+  font-size: 20px;
+  font-family: "Effra", Arial, sans-serif;
+  color: #00303a;
+  background: #fff;
+  min-width: 320px;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.theme-button {
+  background: #004d5a;
+  color: #fff;
+  border: none;
+  border-radius: 32px;
+  padding: 14px 36px;
+  font-size: 20px;
+  font-family: "Effra", Arial, sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.theme-button:hover {
+  background: #19e6c1;
+  color: #00303a;
+}
+.subscribe-success {
+  margin-top: 18px;
+  color: #19e6c1;
+  font-size: 18px;
+  text-align: left;
+  font-family: "Effra", Arial, sans-serif;
+}
+@media (max-width: 900px) {
+  .subscribe-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .subscribe-form {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .parkin-input .form-control {
+    min-width: 0;
+    width: 100%;
+  }
+  .theme-button {
+    width: 100%;
+  }
+}
+.investors-glance {
+  direction: ltr;
+  padding: 10px 30px 50px 50px;
+  font-family: "Effra", Arial, sans-serif;
+  color: #00303a;
+}
+
+.investors-glance-item-content {
+  display: block;
+  width: 100%;
+}
+
+.investors-glance * {
+  direction: ltr;
+  text-align: left;
+  font-family: inherit;
+}
+
+.section-title-investors {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.main-title-investors {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Effra", Arial, sans-serif;
+  color: #00303a;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.main-title,
+.p1 {
+  font-family: "Effra", Arial, sans-serif;
+  color: #00303a;
+}
+.p1 {
+  font-family: "Effra", Arial, sans-serif;
+  color: #00303a;
+  margin-bottom: 32px;
+}
+.investor-about {
+  width: 100%;
+  background: #fff;
+  padding: 64px 0 56px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.investor-about-container {
+  max-width: 1200px;
+  width: 98%;
+  background: #f7f9fa;
+  border-radius: 20px;
+  box-shadow: 0 4px 32px rgba(25, 118, 210, 0.08);
+  padding: 24px 18px;
+  position: relative;
+}
+
+.investor-about-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1976d2;
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.investor-about-text {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+  color: #222;
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  .investor-about-title {
+    font-size: 24px;
+  }
+  .investor-about-text {
+    font-size: 16px;
+  }
+  .investor-about-container {
+    padding: 24px 10px;
+  }
+}
+.investor-banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+.investor-banner-wrap {
+  background-image: url("https://cms.parkin.ae/sites/default/files/2025-04/Investor.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.investor-banner-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.investor-banner-content {
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 16px;
+  padding: 48px 32px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.15);
+  max-width: 700px;
+}
+
+.investor-banner-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.investor-banner-content h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.investor-car-image {
+  position: absolute;
+  right: 60px;
+  bottom: 24px;
+  width: 310px;
+  height: 126px;
+  z-index: 2;
+  color: transparent;
+}
+
+.investor-right-line {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 8px;
+  height: 100%;
+  background: #1976d2;
+  border-radius: 0 8px 8px 0;
+  opacity: 0.2;
+}
+
+.investor-bottom-line {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8px;
+  background: #1976d2;
+  border-radius: 0 0 8px 8px;
+  opacity: 0.2;
+}

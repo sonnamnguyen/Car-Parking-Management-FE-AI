@@ -1,0 +1,170 @@
+/* Login Page Styles - Modern, Split Layout */
+
+.login-page {
+  display: flex;
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+.login-left {
+  flex: 1;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-logo {
+  max-width: 80%;
+  height: auto;
+  /* background: #e0f7fa; */
+  /* border: 6px solid; */
+  /* border-image: linear-gradient(135deg, #1976d2, #19e6c1) 1; */
+  /* border-radius: 32px; */
+  padding: 32px;
+  box-shadow: 0 4px 24px rgba(25, 118, 210, 0.08);
+}
+
+.login-right {
+  flex: 1;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form-container {
+  width: 100%;
+  max-width: 420px;
+  padding: 32px 0;
+}
+
+.login-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #00303a;
+  margin-bottom: 24px;
+  font-family: "Effra", Arial, sans-serif;
+}
+
+.login-divider {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+}
+.login-divider-line {
+  flex: 1;
+  height: 1px;
+  background: #b0bec5;
+}
+.login-divider-or {
+  margin: 0 16px;
+  color: #78909c;
+  font-weight: 600;
+}
+
+.login-label {
+  font-weight: 700;
+  color: #00303a;
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-family: "Effra", Arial, sans-serif;
+}
+
+.login-input {
+  width: 100%;
+  padding: 16px;
+  border-radius: 12px;
+  border: none;
+  background: #f4f4f4;
+  font-size: 18px;
+  margin-bottom: 18px;
+  font-family: "Effra", Arial, sans-serif;
+  color: #00303a;
+}
+
+.login-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.login-link {
+  color: #00303a;
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login-remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #00303a;
+  font-family: "Effra", Arial, sans-serif;
+}
+
+.login-button {
+  width: 100%;
+  padding: 18px 0;
+  background: #005661;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  border: none;
+  border-radius: 32px;
+  margin-top: 18px;
+  font-family: "Effra", Arial, sans-serif;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.login-button:hover {
+  background: #19e6c1;
+  color: #00303a;
+}
+/* Login page styles */
+.login-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 32px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0, 80, 96, 0.08);
+}
+.login-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #005060;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.login-form-group {
+  margin-bottom: 16px;
+}
+.login-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cfd8dc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.login-btn {
+  width: 100%;
+  padding: 10px 0;
+  background: #00dcb5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.login-error {
+  color: red;
+  margin-top: 16px;
+  text-align: center;
+}

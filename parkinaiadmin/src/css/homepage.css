@@ -1,0 +1,803 @@
+/* Homepage styles */
+.homepage-container {
+  padding: 40px 0;
+  text-align: center;
+}
+.homepage-title {
+  color: #005060;
+  font-size: 36px;
+  font-weight: 700;
+}
+.homepage-desc {
+  font-size: 20px;
+  margin-top: 16px;
+}
+.homepage-banner {
+  position: relative;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  min-height: 340px;
+  height: 420px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  background: linear-gradient(120deg, #00dcb5 0%, #005060 100%);
+  transition: background-image 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 70px; /* Height of fixed header */
+  overflow: hidden;
+}
+.homepage-banner-carousel {
+  position: relative;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  min-height: 340px;
+  height: 420px;
+  margin-top: 70px;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+.homepage-banner-track {
+  display: flex;
+  width: 200vw;
+  height: 100%;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+.homepage-banner-track.sliding-left {
+  transform: translateX(-50%);
+}
+.homepage-banner-track.sliding-right {
+  transform: translateX(50%);
+}
+.homepage-banner-slide {
+  width: 100vw;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.homepage-banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 80, 96, 0.32);
+  z-index: 1;
+  height: 100%;
+}
+.homepage-banner-slider-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.homepage-banner-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.homepage-banner-desc {
+  font-size: 22px;
+  margin-bottom: 32px;
+}
+.homepage-banner-cta {
+  padding: 14px 40px;
+  background: #fff;
+  color: #00dcb5;
+  border: none;
+  border-radius: 999px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 80, 96, 0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.homepage-banner-cta:hover {
+  background: #00dcb5;
+  color: #fff;
+}
+.homepage-banner-controls {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.homepage-banner-arrow {
+  background: rgba(255, 255, 255, 0.8);
+  color: #00dcb5;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 80, 96, 0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.homepage-banner-arrow:hover {
+  background: #00dcb5;
+  color: #fff;
+}
+.homepage-section {
+  max-width: 1100px;
+  margin: 48px auto;
+  padding: 0 16px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0, 80, 96, 0.08);
+}
+.homepage-section-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #005060;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.homepage-section-content {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.homepage-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.homepage-feature {
+  flex: 1 1 220px;
+  background: #e0f7fa;
+  border-radius: 12px;
+  padding: 32px 20px;
+  text-align: center;
+  color: #005060;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 80, 96, 0.06);
+}
+
+/* How to Pay for Parking Section */
+.howtopay-parking {
+  background: #f8f9fa;
+  padding: 48px 0 32px 0;
+}
+.howtopay-parking .container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 16px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.section-title .main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #005060;
+  margin-bottom: 12px;
+}
+.section-title .sub-title {
+  font-size: 18px;
+  color: #555;
+}
+.homepage-section-title .sub-title {
+  font-size: 14px;
+  color: #666;
+}
+.howtopay-parking-listing {
+  display: flex;
+  justify-content: center;
+}
+.regular.slider {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.howtopay-parking-list {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0, 80, 96, 0.08);
+  width: 340px;
+  height: 500px;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s, transform 0.2s;
+  overflow: hidden;
+}
+.howtopay-parking-list:hover {
+  box-shadow: 0 4px 24px rgba(0, 80, 96, 0.16);
+  transform: translateY(-4px) scale(1.03);
+}
+.howtopay-parking-image {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0f7fa;
+}
+.howtopay-parking-image img {
+  max-width: 180px;
+  max-height: 180px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+.howtopay-parking-content {
+  padding: 24px 20px 16px 20px;
+  flex: 1;
+}
+.howtopay-parking-content h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #005060;
+  margin-bottom: 10px;
+}
+.howtopay-parking-content .content {
+  font-size: 16px;
+  color: #444;
+}
+.content.sub-title {
+  font-size: 14px;
+  color: #666;
+}
+.theme-button-border {
+  margin: 0 20px 20px 20px;
+  padding: 10px 0;
+  border: 2px solid #00dcb5;
+  border-radius: 999px;
+  color: #00dcb5;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  background: none;
+  transition: background 0.2s, color 0.2s;
+}
+.theme-button-border:hover {
+  background: #007b9c;
+  color: #fff;
+}
+.howtopay-parking .theme-button-border {
+  display: block;
+  margin: 8px auto 8px auto;
+  padding: 12px 32px;
+  background: #00dcb5;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 80, 96, 0.08);
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* Discover the Key to Stress-Free Parking Section */
+.homepage-discover-the-key-inner-view {
+  background: #f2fcff;
+  padding: 48px 0 32px 0;
+}
+.homepage-discover-the-key-inner-view .section-title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.homepage-discover-the-key-inner-view .main-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #005060;
+  margin-bottom: 12px;
+}
+.homepage-discover-the-key-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.homepage-discover-the-key-card {
+  background: #f8f9fa;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 80, 96, 0.08);
+  width: 320px;
+  padding: 32px 24px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.homepage-discover-the-key-card-icon {
+  width: 56px;
+  height: 56px;
+  background: #e0f7fa;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.homepage-discover-the-key-card-icon img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+.homepage-discover-the-key-card h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #005060;
+  margin-bottom: 10px;
+}
+.homepage-discover-the-key-card p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 0;
+}
+@media (max-width: 900px) {
+  .homepage-discover-the-key-list {
+    gap: 16px;
+  }
+  .homepage-discover-the-key-card {
+    width: 100%;
+    min-width: 220px;
+    max-width: 100%;
+  }
+}
+
+/* New Feature Section */
+.new-feature-section {
+  background: #f7faff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 80, 96, 0.07);
+  margin: 48px auto;
+  max-width: 1100px;
+  padding: 32px 16px;
+}
+.new-feature-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-feature-wrap > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.new-feature-section .section-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.new-feature-section .main-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #007b9c;
+}
+.new-feature-section .section-title .sub-title {
+  font-size: 18px;
+  color: #555;
+  margin: 16px 0 20px 0;
+  max-width: 600px;
+}
+.new-feature-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-feature-image-wrapper img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 80, 96, 0.08);
+}
+.border-white {
+  border: 2px solid #fff !important;
+  color: #007b9c !important;
+  background: #fff !important;
+  margin-top: 12px;
+}
+
+/* Overlay New Feature Section - Left Align, White Text */
+.new-feature-image-overlay-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-feature-image {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  display: block;
+}
+.new-feature-overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0);
+  border-radius: 0 16px 16px 0;
+  padding: 32px 40px;
+  text-align: left;
+  max-width: 600px;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.new-feature-overlay-content .main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.new-feature-overlay-content .sub-title {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.new-feature-overlay-content .theme-button-border {
+  min-width: 160px;
+  font-size: 18px;
+  padding: 12px 0;
+  border-radius: 999px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 8px rgba(0, 80, 96, 0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.new-feature-overlay-content .theme-button-border:hover {
+  background: #fff;
+  color: #007b9c;
+}
+@media (max-width: 900px) {
+  .new-feature-wrap > div {
+    max-width: 100%;
+  }
+  .new-feature-section {
+    padding: 16px 4px;
+  }
+  .new-feature-overlay-content {
+    padding: 16px 8px;
+    max-width: 95vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+  }
+}
+
+/* Most Popular Services Section */
+.most-popular-services {
+  background: #f8f9fa;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 80, 96, 0.07);
+  margin: 48px auto;
+  max-width: 1100px;
+  padding: 32px 16px;
+}
+.most-popular-services .container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 16px;
+}
+.most-popular-services-listing {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 24px;
+}
+.most-popular-services-slider {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 32px;
+  width: 100%;
+  justify-content: center;
+}
+.most-popular-services-list {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0, 80, 96, 0.08);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s, transform 0.2s;
+  overflow: hidden;
+}
+.most-popular-services-list:hover {
+  box-shadow: 0 4px 24px rgba(0, 80, 96, 0.16);
+  transform: translateY(-4px) scale(1.03);
+}
+.most-popular-services-image {
+  width: 100%;
+  height: 240px;
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.most-popular-services-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+.most-popular-services-content {
+  padding: 24px 20px 16px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.most-popular-services-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #005060;
+  margin-bottom: 10px;
+}
+.most-popular-services-content p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 16px;
+}
+.theme-button-border {
+  margin: 0 0 0 0;
+  padding: 10px 0;
+  border: 2px solid #00dcb5;
+  border-radius: 999px;
+  color: #00dcb5;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  background: none;
+  transition: background 0.2s, color 0.2s;
+  min-width: 120px;
+}
+.theme-button-border:hover {
+  background: #00dcb5;
+  color: #fff;
+}
+.coming-soon-btn {
+  border: 2px dashed #aaa !important;
+  color: #aaa !important;
+  background: #f8f9fa !important;
+  cursor: not-allowed;
+}
+@media (max-width: 900px) {
+  .most-popular-services-slider {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .most-popular-services-list {
+    width: 100%;
+    min-width: 180px;
+    max-width: 100%;
+  }
+  .most-popular-services-content {
+    align-items: center;
+    text-align: center;
+  }
+  /* Most Popular Services Section - Larger Cards */
+  .most-popular-services-slider {
+    gap: 40px;
+  }
+  .most-popular-services-list {
+    min-width: 320px;
+    max-width: 520px;
+    width: 100%;
+    font-size: 18px;
+  }
+  .most-popular-services-image {
+    height: 240px;
+  }
+  .most-popular-services-image img {
+    max-width: 95%;
+    max-height: 220px;
+  }
+  .most-popular-services-content {
+    padding: 32px 28px 24px 28px;
+  }
+  .most-popular-services-content h4 {
+    font-size: 26px;
+    margin-bottom: 16px;
+  }
+  .most-popular-services-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .theme-button-border {
+    font-size: 20px;
+    min-width: 160px;
+    padding: 14px 0;
+  }
+}
+
+/* Parking Convenience Section */
+.parking-convenience {
+  background: #f7faff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 80, 96, 0.07);
+  margin: 48px auto;
+  max-width: 1100px;
+  padding: 32px 16px;
+}
+.parking-convenience .container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 16px;
+}
+.parking-convenience-listing {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 24px;
+}
+.parking-convenience-slider {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.parking-convenience-list {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  width: 320px;
+  min-width: 220px;
+  text-decoration: none;
+  color: inherit;
+  transition: none;
+  overflow: hidden;
+}
+.parking-convenience-list:hover {
+  box-shadow: none;
+  transform: none;
+}
+.parking-convenience-image {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0f7fa;
+}
+.parking-convenience-image img {
+  max-width: 90%;
+  max-height: 160px;
+  object-fit: contain;
+  border-radius: 0;
+}
+.parking-convenience-content {
+  padding: 24px 20px 16px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.parking-convenience-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #005060;
+  margin-bottom: 10px;
+}
+.parking-convenience-content p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 16px;
+}
+@media (max-width: 900px) {
+  .parking-convenience-slider {
+    gap: 16px;
+  }
+  .parking-convenience-list {
+    width: 100%;
+    min-width: 180px;
+    max-width: 100%;
+  }
+  .parking-convenience-content {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Need Help Section */
+.need-help {
+  background: #e6f7fa;
+  border-radius: 16px;
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  min-height: 340px;
+  padding: 64px 0;
+  box-sizing: border-box;
+}
+.need-help .container {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0 16px;
+}
+.need-help-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.need-help-text {
+  text-align: center;
+}
+.need-help-text .main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #007b9c;
+  margin-bottom: 12px;
+}
+.need-help-text .sub-title {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 0;
+  white-space: pre-line;
+  text-align: center;
+  line-height: 1.7;
+}
+.theme-button {
+  padding: 14px 40px;
+  background: #00dcb5;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 80, 96, 0.08);
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  display: inline-block;
+}
+.theme-button:hover {
+  background: #007b9c;
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .need-help {
+    padding: 18px 4px;
+  }
+  .need-help-text .main-title {
+    font-size: 22px;
+  }
+  .theme-button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}

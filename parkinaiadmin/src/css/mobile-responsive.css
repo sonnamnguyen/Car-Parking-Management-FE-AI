@@ -1,0 +1,563 @@
+/* Mobile Responsive Base Styles */
+
+/* Base Reset for Mobile */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Container Responsive */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Mobile Breakpoints */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 12px;
+  }
+
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 8px;
+  }
+
+  html {
+    font-size: 13px;
+  }
+}
+
+/* Header Mobile Responsive */
+@media (max-width: 768px) {
+  .theme-header {
+    position: relative;
+    padding: 10px 0;
+  }
+
+  .header-wrap {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .logo img {
+    height: 40px !important;
+  }
+
+  .header-nav {
+    display: none; /* Hide desktop nav on mobile */
+  }
+
+  .menu-section {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Footer Mobile Responsive */
+@media (max-width: 768px) {
+  .theme-footer {
+    padding: 30px 0;
+  }
+
+  .footer-wrap {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .footer-logo img {
+    width: 150px !important;
+  }
+
+  .footer-quick-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-list {
+    margin-bottom: 20px;
+  }
+}
+
+/* Homepage Mobile Responsive */
+@media (max-width: 768px) {
+  .homepage-banner-carousel {
+    height: 300px;
+  }
+
+  .hero-title {
+    font-size: 24px !important;
+    line-height: 1.2;
+  }
+
+  .hero-subtitle {
+    font-size: 14px !important;
+    line-height: 1.4;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+
+  .service-card {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .homepage-banner-carousel {
+    height: 250px;
+  }
+
+  .hero-title {
+    font-size: 20px !important;
+  }
+
+  .hero-subtitle {
+    font-size: 12px !important;
+  }
+}
+
+/* About Us Mobile Responsive */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 300px;
+    padding: 60px 0;
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr !important;
+    gap: 30px;
+  }
+
+  .mission-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 20px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .values-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Individual Page Mobile Responsive */
+@media (max-width: 768px) {
+  .individual-hero {
+    height: 300px;
+    padding: 60px 0;
+  }
+
+  .features-content {
+    grid-template-columns: 1fr !important;
+    gap: 30px;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+}
+
+/* Investor Page Mobile Responsive */
+@media (max-width: 768px) {
+  .investor-banner {
+    height: 300px;
+  }
+
+  .investor-banner-content h1 {
+    font-size: 24px !important;
+    line-height: 1.2;
+  }
+
+  .investor-banner-content h2 {
+    font-size: 16px !important;
+  }
+
+  .investors-glance-item-content {
+    padding: 20px;
+  }
+}
+
+/* Login/Register Mobile Responsive */
+@media (max-width: 768px) {
+  .login-page {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .login-left {
+    height: 200px;
+    width: 100%;
+  }
+
+  .login-right {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .register-container {
+    padding: 20px;
+    margin: 20px;
+  }
+}
+
+/* Admin Panel Mobile Responsive */
+@media (max-width: 768px) {
+  .home-wrapper {
+    flex-direction: column;
+  }
+
+  .home-sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+
+  .home-sidebar-btn {
+    display: inline-block;
+    margin-right: 10px;
+    white-space: nowrap;
+  }
+
+  .home-main {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .admin-container {
+    padding: 16px;
+  }
+
+  .admin-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .header-actions {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .view-toggle {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .admin-filters {
+    grid-template-columns: 1fr !important;
+    gap: 12px;
+  }
+
+  .admin-stats {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 15px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .admin-table-container {
+    overflow-x: auto;
+  }
+
+  .admin-table {
+    min-width: 800px;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .admin-btn-small {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin-stats {
+    grid-template-columns: 1fr !important;
+  }
+
+  .stat-number {
+    font-size: 24px !important;
+  }
+
+  .admin-title {
+    font-size: 20px !important;
+  }
+
+  .home-sidebar {
+    padding: 5px;
+  }
+
+  .home-sidebar-btn {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+}
+
+/* Dashboard Mobile Responsive */
+@media (max-width: 768px) {
+  .dashboard-cards {
+    grid-template-columns: 1fr !important;
+    gap: 15px;
+  }
+
+  .dashboard-date-picker {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .date-picker-group {
+    width: 100%;
+  }
+
+  .status-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px;
+  }
+
+  .chart-container {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .status-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .dashboard-card {
+    padding: 15px;
+  }
+
+  .card-value {
+    font-size: 20px !important;
+  }
+}
+
+/* Parking Visual Mobile Responsive */
+@media (max-width: 768px) {
+  .parking-grid {
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)) !important;
+    gap: 8px;
+  }
+
+  .parking-spot {
+    height: 60px;
+  }
+
+  .spot-code {
+    font-size: 10px !important;
+  }
+
+  .spot-type {
+    font-size: 8px !important;
+  }
+
+  .spot-car {
+    font-size: 14px !important;
+  }
+
+  .legend-items {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Modal Mobile Responsive */
+@media (max-width: 768px) {
+  .admin-modal {
+    padding: 10px;
+  }
+
+  .admin-modal-content {
+    max-width: 100%;
+    margin: 0;
+    border-radius: 8px;
+  }
+
+  .admin-modal-header {
+    padding: 20px 15px 0;
+  }
+
+  .admin-form {
+    padding: 0 15px 20px;
+  }
+}
+
+/* Table Mobile Responsive */
+@media (max-width: 768px) {
+  .admin-table-container {
+    border-radius: 8px;
+  }
+
+  .admin-table th,
+  .admin-table td {
+    padding: 8px 6px;
+    font-size: 12px;
+  }
+
+  .admin-table th:nth-child(n + 4),
+  .admin-table td:nth-child(n + 4) {
+    display: none;
+  }
+}
+
+/* Button Mobile Responsive */
+@media (max-width: 480px) {
+  .admin-btn {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .hero-buttons {
+    flex-direction: column !important;
+    gap: 10px;
+  }
+
+  .download-buttons {
+    flex-direction: column !important;
+    gap: 10px;
+  }
+}
+
+/* Touch-friendly Elements */
+@media (max-width: 768px) {
+  button,
+  .admin-btn,
+  .btn-primary,
+  .btn-secondary,
+  .home-sidebar-btn {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  input,
+  select,
+  .admin-input,
+  .admin-select {
+    min-height: 44px;
+    font-size: 16px; /* Prevent zoom on iOS */
+  }
+
+  .parking-spot {
+    min-height: 60px;
+    min-width: 60px;
+  }
+}
+
+/* Utility Classes for Mobile */
+.mobile-hidden {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-hidden {
+    display: none !important;
+  }
+
+  .mobile-only {
+    display: block !important;
+  }
+}
+
+/* Text Sizing for Mobile */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px !important;
+  }
+
+  h2 {
+    font-size: 20px !important;
+  }
+
+  h3 {
+    font-size: 18px !important;
+  }
+
+  h4 {
+    font-size: 16px !important;
+  }
+
+  p,
+  span,
+  div {
+    font-size: 14px !important;
+    line-height: 1.5;
+  }
+
+  .section-title {
+    font-size: 22px !important;
+    text-align: center;
+  }
+
+  .section-subtitle {
+    font-size: 14px !important;
+    text-align: center;
+  }
+}
