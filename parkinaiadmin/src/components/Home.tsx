@@ -55,7 +55,7 @@ const Home: React.FC = () => {
             }`}
             onClick={() => setSelectedMenu("payment")}
           >
-            Payment
+            Transaction 
           </button>
         ) : (
           <>
@@ -124,7 +124,7 @@ const Home: React.FC = () => {
                 }`}
                 onClick={() => setSelectedMenu("payment")}
               >
-                Payment
+                Transaction 
               </button>
             )}
           </>

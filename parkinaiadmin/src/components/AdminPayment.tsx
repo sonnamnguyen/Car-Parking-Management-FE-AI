@@ -19,39 +19,39 @@ const mockPayments: Payment[] = [
     bank_name: "Vietcombank",
     bank_number: "1031190743",
     description: "GXG PD 2411 1900 2000 51D36349",
-    day: "2025-11-24T17:35:00.000Z",
+    day: "2025-11-24T17:37:00.000Z",
   },
   {
     id: 2,
     money: "20000",
     bank_name: "Vietcombank",
     bank_number: "1031190743",
-    description: "GXG PD 2411 1900 2000 51D36349",
-    day: "2025-11-25T15:37:00.000Z",
+    description: "GXG PD 2611 0800 0900 51D36349",
+    day: "2025-11-25T15:39:00.000Z",
   },
   {
     id: 3,
     money: "20000",
     bank_name: "Vietcombank",
     bank_number: "1031190743",
-    description: "GXG PD 2411 1900 2000 51D36349",
-    day: "2025-11-25T15:39:00.000Z",
+    description: "GXG PD 0212 0800 0900 51D36349",
+    day: "2025-11-27T20:41:00.000Z",
   },
   {
     id: 4,
     money: "20000",
     bank_name: "Vietcombank",
     bank_number: "1031190743",
-    description: "GXG PD 2411 1900 2000 51D36349",
-    day: "2025-11-26T20:41:00.000Z",
+    description: "GXG PD 0312 0800 0900 51D36349",
+    day: "2025-11-27T20:42:00.000Z",
   },
   {
     id: 5,
     money: "20000",
     bank_name: "Vietcombank",
     bank_number: "1031190743",
-    description: "GXG PD 2411 1900 2000 51D36349",
-    day: "2025-11-26T20:42:00.000Z",
+    description: "GXG PD 0412 0800 0900 51D36349",
+    day: "2025-11-26T20:42:70.000Z",
   },
   
   // Nguyễn Phi Hùng - 61A93625
@@ -61,39 +61,39 @@ const mockPayments: Payment[] = [
     bank_name: "MB Bank",
     bank_number: "22880112233",
     description: "GXG PD 2411 1900 2000 61A93625",
-    day: "2025-11-24T17:05:00.000Z",
+    day: "2025-11-24T17:07:00.000Z",
   },
   {
     id: 7,
     money: "20000",
     bank_name: "MB Bank",
     bank_number: "22880112233",
-    description: "GXG PD 2411 1900 2000 61A93625",
-    day: "2025-11-24T17:07:00.000Z",
+    description: "GXG PD 2711 0730 0830 61A93625",
+    day: "2025-11-26T22:28:00.000Z",
   },
   {
     id: 8,
-    money: "20000",
+    money: "45000",
     bank_name: "MB Bank",
     bank_number: "22880112233",
-    description: "GXG PD 2411 1900 2000 61A93625",
-    day: "2025-11-24T22:28:00.000Z",
+    description: "GXG PD 2711 1800 2000 61A93625",
+    day: "2025-11-26T22:28:01.000Z",
   },
   {
     id: 9,
     money: "20000",
     bank_name: "MB Bank",
     bank_number: "22880112233",
-    description: "GXG PD 2411 1900 2000 61A93625",
-    day: "2025-11-24T22:43:00.000Z",
+    description: "GXG PD 2811 1200 1300 61A93625",
+    day: "2025-11-26T22:43:00.000Z",
   },
   {
     id: 10,
     money: "20000",
     bank_name: "MB Bank",
     bank_number: "22880112233",
-    description: "GXG PD 2411 1900 2000 61A93625",
-    day: "2025-11-24T23:25:00.000Z",
+    description: "GXG PD 2911 1200 1300 61A93625",
+    day: "2025-11-26T23:25:00.000Z",
   },
   
   // Kiều Duy Minh Khôi - 51K65832
@@ -102,58 +102,58 @@ const mockPayments: Payment[] = [
     money: "45000",
     bank_name: "Vietcombank",
     bank_number: "1014154577",
-    description: "GXG PD 2611 1200 1400 51K65832",
-    day: "2025-11-25T14:23:00.000Z",
+    description: "GXG PD 2511 1200 1400 51K65832",
+    day: "2025-11-25T14:25:00.000Z",
   },
   {
     id: 12,
     money: "45000",
     bank_name: "Vietcombank",
     bank_number: "1014154577",
-    description: "GXG PD 2611 1200 1400 51K65832",
-    day: "2025-11-25T16:25:00.000Z",
+    description: "GXG PD 0312 1200 1400 51K65832",
+    day: "2025-11-27T14:12:00.000Z",
   },
   {
     id: 13,
     money: "45000",
     bank_name: "Vietcombank",
     bank_number: "1014154577",
-    description: "GXG PD 2611 1200 1400 51K65832",
-    day: "2025-11-25T16:47:00.000Z",
+    description: "GXG PD 3011 1200 1400 51K65832",
+    day: "2025-11-28T23:05:00.000Z",
   },
   {
     id: 14,
     money: "45000",
     bank_name: "Vietcombank",
     bank_number: "1014154577",
-    description: "GXG PD 2611 1200 1400 51K65832",
-    day: "2025-11-25T16:49:00.000Z",
+    description: "GXG PD 0112 1200 1400 51K65832",
+    day: "2025-11-28T23:06:00.000Z",
   },
   {
     id: 15,
     money: "45000",
     bank_name: "Vietcombank",
     bank_number: "1014154577",
-    description: "GXG PD 2611 1200 1400 51K65832",
-    day: "2025-11-25T16:51:00.000Z",
+    description: "GXG PD 0212 1200 1400 51K65832",
+    day: "2025-11-28T23:07:00.000Z",
   },
   
   // Đỗ Hùng Cường - 50H93877
   {
     id: 16,
-    money: "20000",
+    money: "45000",
     bank_name: "VPBank",
     bank_number: "265070426",
-    description: "GXG PD 2611 0800 0900 50H93877",
-    day: "2025-11-24T17:37:00.000Z",
+    description: "GXG PD 2411 1800 2000 50H93877",
+    day: "2025-11-24T16:59:00.000Z",
   },
   {
     id: 17,
     money: "20000",
     bank_name: "VPBank",
     bank_number: "265070426",
-    description: "GXG PD 2611 0800 0900 50H93877",
-    day: "2025-11-24T17:42:00.000Z",
+    description: "GXG PD 2611 1200 1300 50H93877",
+    day: "2025-11-25T17:42:00.000Z",
   },
   {
     id: 18,
@@ -161,23 +161,23 @@ const mockPayments: Payment[] = [
     bank_name: "VPBank",
     bank_number: "265070426",
     description: "GXG PD 2611 0800 0900 50H93877",
-    day: "2025-11-25T14:25:00.000Z",
+    day: "2025-11-25T17:43:00.000Z",
   },
   {
     id: 19,
     money: "20000",
     bank_name: "VPBank",
     bank_number: "265070426",
-    description: "GXG PD 2611 0800 0900 50H93877",
-    day: "2025-11-25T16:53:00.000Z",
+    description: "GXG PD 2911 0800 0900 50H93877",
+    day: "2025-11-26T22:45:00.000Z",
   },
   {
     id: 20,
     money: "20000",
     bank_name: "VPBank",
     bank_number: "265070426",
-    description: "GXG PD 2611 0800 0900 50H93877",
-    day: "2025-11-26T09:15:00.000Z",
+    description: "GXG PD 3011 0800 1100 50H93877",
+    day: "2025-11-26T22:46:00.000Z",
   },
   
   // Lê Hoàng Chung - 76A22158
@@ -187,7 +187,7 @@ const mockPayments: Payment[] = [
     bank_name: "MB Bank",
     bank_number: "000026623734",
     description: "GXG PD 0312 1500 1600 76A22158",
-    day: "2025-11-25T16:45:00.000Z",
+    day: "2025-11-27T16:45:00.000Z",
   },
   {
     id: 22,
@@ -195,7 +195,7 @@ const mockPayments: Payment[] = [
     bank_name: "MB Bank",
     bank_number: "000026623734",
     description: "GXG PD 0312 1900 2100 76A22158",
-    day: "2025-11-25T16:47:00.000Z",
+    day: "2025-11-27T16:47:00.000Z",
   },
   {
     id: 23,
@@ -203,24 +203,27 @@ const mockPayments: Payment[] = [
     bank_name: "MB Bank",
     bank_number: "000026623734",
     description: "GXG PD 0412 1500 1600 76A22158",
-    day: "2025-11-25T16:49:00.000Z",
+    day: "2025-11-27T16:49:00.000Z",
   },
   {
     id: 24,
     money: "45000",
     bank_name: "MB Bank",
     bank_number: "000026623734",
-    description: "GXG PD 0512 1500 1600 76A22158",
-    day: "2025-11-26T15:39:00.000Z",
+    description: "GXG PD 0412 1900 2100 76A22158",
+    day: "2025-11-27T16:51:00.000Z",
   },
   {
     id: 25,
     money: "20000",
     bank_name: "MB Bank",
     bank_number: "000026623734",
-    description: "GXG PD 0912 1500 1600 76A22158",
-    day: "2025-11-26T20:42:00.000Z",
+    description: "GXG PD 0512 1500 1600 76A22158",
+    day: "2025-11-27T16:53:00.000Z",
   },
+
+
+  
 ];
 
 const AdminPayment: React.FC = () => {
@@ -277,7 +280,7 @@ const AdminPayment: React.FC = () => {
     const hours = String(date.getUTCHours()).padStart(2, "0");
     const minutes = String(date.getUTCMinutes()).padStart(2, "0");
     const seconds = String(date.getUTCSeconds()).padStart(2, "0");
-    return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+    return `${hours}:${minutes}:${seconds} ${day}-${month}-${year}`;
   };
 
   const formatPrice = (price: string) => {
@@ -310,7 +313,7 @@ const AdminPayment: React.FC = () => {
   return (
     <div className="admin-container">
       <div className="admin-header">
-        <h1 className="admin-title">Payment Management</h1>
+        <h1 className="admin-title">Transaction Management</h1>
       </div>
 
       {error && (
@@ -390,7 +393,7 @@ const AdminPayment: React.FC = () => {
       {totalPages > 1 && (
         <div className="pagination">
           <div className="pagination-info">
-            Page {currentPage + 1} of {totalPages} ({totalItems} total payments)
+            Page {currentPage + 1} of {totalPages} ({totalItems} total transaction)
           </div>
 
           <div className="pagination-controls">
